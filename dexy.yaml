@@ -1,0 +1,8 @@
+.rst|jinja|rst|easyhtml: # generate the reports
+    - .py|py
+
+.py|py: # perform data analysis and output graphics and results
+    - py: {
+            timeout : 30,
+            add-new-files : true
+          }
